@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Orange",
+        "img": "orange.jpg",
+        "unit": "500 gms",
+        "price": 30,
+        "new": true
+
+    },
+    {
+        "id": 2,
+        "name": "Grapes",
+        "img": "grapes.jpg",
+        "unit": "500 gms",
+        "price": 50,
+        "new": true
+
+    },
+    {
+        "id": 3,
+        "name": "Strawberry",
+        "img": "strawberry.jpg",
+        "unit": "250 gms",
+        "price": 200,
+        "new": false
+
+    },
+    {
+        "id": 4,
+        "name": "Pomegranate",
+        "img": "pomegranate.jpg",
+        "unit": "1 kg",
+        "price": 200,
+        "new": true
+
+    }
+
+]
