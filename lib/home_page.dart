@@ -23,10 +23,9 @@ class _HomePageState extends State<HomePage> {
           actions: [
             InkWell(
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => AddCart(items: widget.items)));
+                MaterialPageRoute route = MaterialPageRoute(
+                    builder: (context) => AddCart(items: widget.items));
+                Navigator.push(context, route).then((value) => setState(() {}));
               },
               child: Stack(alignment: Alignment.topRight, children: [
                 Padding(
@@ -88,7 +87,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Text(
                           '${widget.items[index]["name"]}',
-                          style: TextStyle(fontSize: 22.0),
+                          style: TextStyle(fontSize: 20.0),
                         ),
                         Row(
                           children: [
